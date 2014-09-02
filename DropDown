@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<title> MenuBar Julia Tyles</title>
+
+
+<html>
+<head>
+<style>
+
+#MenuBar
+{
+	margin :0;
+	padding: 0;
+}
+
+#MenuBar ul 
+{
+     margin: 0;
+     padding: 0;
+} 
+
+#MenuBar li 
+{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     float: left;
+     position: relative;
+     background-color: #BDBDBD;
+
+}
+
+#MenuBar ul li a
+{
+	/*text-align:center;*/
+	font-family: sans-serif;
+	text-decoration: none;
+	height: 20px;
+	width: 75px;
+	display: block;
+	color: #000000;	
+	border: 1px solid #58ACFA;
+}	
+
+#MenuBar ul ul
+{
+	text-align:left;
+	position: absolute;
+	visibility: hidden;
+}
+
+#MenuBar ul li:hover ul
+{
+	visibility: visible;
+	
+}
+
+#MenuBar li:hover
+{
+	background-color: #CEECF5;
+}
+	
+</style>
+</head>
+
+<body>
+	
+<div id ="wrapper" >
+<div id= "MenuBar"> 
+		
+<ul>
+   <li><a href="#">File</a>
+   		<ul>
+   			<li><a href="#">New</a>
+   			<li><a href="#">Open</a>
+   			<li><a href="#">Save</a>
+   		</ul>
+   </li>	
+</ul> 
+
+<ul>
+   <li><a href="#">Edit</a>
+   		<ul>
+   			<li><a href="#">Undo</a>
+   			<li><a href="#">Copy</a>
+   			<li><a href="#">Cut</a>
+   			<li><a href="#">Paste</a>
+   			<li><a href="#">Delete</a>
+   		
+   		</ul>
+   </li>	
+</ul> 
+
+
+<ul>
+   <li><a href="#">Format</a>
+   		<ul>
+   			<li><a href="#">Font</a>
+   		</ul>
+   </li>	
+</ul> 
+
+
+<ul>
+   <li><a href="#">View</a>
+   		<ul>
+   			<li><a href="#">Status Bar</a>
+   		</ul>
+   </li>	
+</ul> 
+
+<ul>
+   <li><a href="#">Help</a>
+   		<ul>
+   			<li><a href="#">View Help</a>
+			<li><a href="#">About</a>
+   		</ul>
+   </li>	
+</ul> 
+
+		
+		
+</div>
+</div>
+	
+</body>
+<br>
+<br>
+<footer> <small> <i> 2014 Julia Tyles</i></small></footer>
+</html>
+
